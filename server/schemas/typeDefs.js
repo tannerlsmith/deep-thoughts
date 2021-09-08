@@ -32,25 +32,11 @@ const typeDefs = gql`
     thoughts(username: String): [Thought]
     thought(_id: ID!): Thought
   }
+
   type Mutation {
     login(email: String!, password: String!): User
     addUser(username: String!, email: String!, password: String!): User
   }
-
-  mutation addUser($username: String!, $password: String!, $email: String!) {
-    addUser(username: $username, password: $password, email: $email) {
-      _id
-      username
-      email
-    }
-  }
-
-  { 
-    "username": "tester2",
-    "password": "test12345",
-    "email": "test2@test.com"
-  }
-
 `;
 
 module.exports = typeDefs;
