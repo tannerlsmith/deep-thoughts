@@ -4,6 +4,8 @@
 * users can post their thoughts and view others' thoughts.
 * they can react, reply to a thought.
 * Can add friends.
+* JSON web token used and installed, uses a utils/auth.js file.
+* JSon web token site: https://jwt.io/
 
 <br>
 <br>
@@ -23,3 +25,4 @@
 <br>
 
 * ran the line, npm i apollo-server-express graphql
+* npm run watch doesn't work
