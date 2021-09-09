@@ -26,3 +26,5 @@
 
 * ran the line, npm i apollo-server-express graphql
 * npm run watch doesn't work
+
+* installed @apollo/client and graphql
